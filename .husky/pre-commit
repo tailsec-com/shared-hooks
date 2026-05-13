@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "Running pre-commit checks..."
+
+# Run typecheck
+npm run typecheck || {
+  echo "TypeScript check failed"
+  exit 1
+}
+
+# Run tests (quick)
+npm test -- --passWithNoTests || {
+  echo "Tests failed"
+  exit 1
+}
+
+echo "Pre-commit checks passed"

@@ -1,0 +1,12 @@
+{
+  "name": "@tailsec/shared-hooks",
+  "version": "0.1.0",
+  "description": "Shared git hooks for Tailsec repos",
+  "scripts": {
+    "install": "husky install",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^9.0.0"
+  }
+}
