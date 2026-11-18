@@ -27,3 +27,5 @@ git config core.hooksPath shared-hooks/.husky
 1. Copy `.husky/` directory to the repo
 2. Run `npm install && npx husky install`
 3. Or symlink to `shared-hooks/.husky`
+
+[![advertisement](https://ads.servead.net/i/2c847c68-27cf-45bc-9687-84962dfebd21.svg)](https://ads.servead.net/c/2c847c68-27cf-45bc-9687-84962dfebd21)
